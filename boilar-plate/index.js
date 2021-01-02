@@ -1,11 +1,14 @@
 const express = require('express');
 const app = express();
-const port = 5000;
+const PORT = 5000;
 
 const mongoose = require('mongoose');
+const MONGO_DB_KEY = require('./key/mongo.js');
+console.log(MONGO_DB_KEY);
+
 mongoose
   .connect(
-    'mongodb+srv://yujo:${password}@boiler-plate.c5ep7.mongodb.net/<dbname>?retryWrites=true&w=majority',
+    `mongodb+srv://yujo:${MONGO_DB_KEY}@boiler-plate.c5ep7.mongodb.net/<dbname>?retryWrites=true&w=majority`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -18,4 +21,4 @@ mongoose
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(port, () => console.log(`localhost:${port} now running🏃‍`));
+app.listen(PORT, () => console.log(`localhost:${PORT} now running🏃‍`));
