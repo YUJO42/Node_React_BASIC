@@ -5,14 +5,14 @@
 <details>
 <summary>더보기</summary>
 <div markdown="1">
-  
+
 ### 📝 구현 기능 목록
 - [X] 회원가입 기능
 - [X] 로그인 기능
 - [X] 로그아웃 기능
 - [X] Auth 기능
   - 로그인시 Token을 생성하고 Token에 담긴 정보를 통해 권한 확인
-
+---
 ### 💻 사용 기술
 #### 🌏 Front-End
 |**ICON**|<img src="/img/icon/React.png" width="50px"></img>|<img src="/img/icon/Redux.png" width="50px"></img>| 
@@ -22,7 +22,7 @@
 |**ICON**|<img src="/img/icon/express.png" width="50px"></img>|<img src="/img/icon/MongoDB.png" width="50px"></img>|
 |------|---|---|
 |**NAME**|Express|MongoDB|
-
+---
 ### ✍️ 배운 점들
 #### 🌏 Front-End
 1. ```axios```를 이용해 서버와 통신하는 방법
@@ -39,6 +39,7 @@
 3. ```bcrypt```를 이용해 암호화가 필요한 정보(비밀번호 등)를 암호화 시키는 방법
 4. ```jsonwebtoken```을 이용해 token을 만들고 cookie에 token을 저장해서 관리하는 방법
 5. ```bodyparser```, ```cookieparser```등의 미들웨어를 사용하는 방법
+---
 
 </div>
 </details>
