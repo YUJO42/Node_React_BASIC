@@ -2,18 +2,24 @@
 
 ## [boiler-plate](https://github.com/YUJO42/node-react-practice/tree/master/boiler-plate)
 #### 🔎 코드 출처 : [따라하며 배우는 노드, 리액트 시리즈 - 기본 강의](https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%85%B8%EB%93%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EB%B3%B8/dashboard)
+
 <details>
-<summary>더보기</summary>
+<summary>📝 구현 기능 목록</summary>
 <div markdown="1">
 
-### 📝 구현 기능 목록
 - [X] 회원가입 기능
 - [X] 로그인 기능
 - [X] 로그아웃 기능
 - [X] Auth 기능
   - 로그인시 Token을 생성하고 Token에 담긴 정보를 통해 권한 확인
----
-### 💻 사용 기술
+
+</div>
+</details>
+
+<details>
+<summary>💻 사용 기술</summary>
+<div markdown="1">
+  
 #### 🌏 Front-End
 |**ICON**|<img src="/img/icon/React.png" width="50px"></img>|<img src="/img/icon/Redux.png" width="50px"></img>| 
 |------|---|---|
@@ -22,8 +28,14 @@
 |**ICON**|<img src="/img/icon/express.png" width="50px"></img>|<img src="/img/icon/MongoDB.png" width="50px"></img>|
 |------|---|---|
 |**NAME**|Express|MongoDB|
----
-### ✍️ 배운 점들
+
+</div>
+</details>
+
+<details>
+<summary>✍️ 배운 점들</summary>
+<div markdown="1">
+  
 #### 🌏 Front-End
 1. ```axios```를 이용해 서버와 통신하는 방법
 2. ```Redux```가 등장하게 된 배경과 ```Redux```를 사용하는 방법
@@ -39,7 +51,6 @@
 3. ```bcrypt```를 이용해 암호화가 필요한 정보(비밀번호 등)를 암호화 시키는 방법
 4. ```jsonwebtoken```을 이용해 token을 만들고 cookie에 token을 저장해서 관리하는 방법
 5. ```bodyparser```, ```cookieparser```등의 미들웨어를 사용하는 방법
----
-
+  
 </div>
 </details>
