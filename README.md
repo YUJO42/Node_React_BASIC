@@ -83,9 +83,9 @@
 <div markdown="1">
   
 #### 🌏 Front-End
-|**ICON**|<img src="/img/icon/React.png" width="50px"></img>|<img src="/img/icon/Redux.png" width="50px"></img>| 
-|------|---|---|
-|**NAME**|React|Redux|
+|**ICON**|<img src="/img/icon/React.png" width="50px"></img>|<img src="/img/icon/Redux.png" width="50px"></img>|<img src="/img/icon/antd.png" width="50px"></img>| 
+|------|---|---|---|
+|**NAME**|React|Redux|antd|
 #### 🕋 Back-End
 |**ICON**|<img src="/img/icon/express.png" width="50px"></img>|<img src="/img/icon/MongoDB.png" width="50px"></img>|
 |------|---|---|
@@ -99,13 +99,10 @@
 <div markdown="1">
   
 #### 🌏 Front-End
-1. ```axios```를 이용해 서버와 통신하는 방법
-2. ```Redux```가 등장하게 된 배경과 ```Redux```를 사용하는 방법
-   - Store와 Action을 분리해서 작성하는 방법 등
-3. ```Hooks```를 이용해 ```React```코드를 작성하는 방법
-4. ```HOC```를 이용해 Auth기능 등을 구현하는 방법
-5. ```http-proxy-middleware```를 이용해 CORS문제를 해결하는 방법
-6. ```react-router-dom```을 이용해 클라이언트에서 routing하는 방법
+1. public API를 이용하는 방법
+1. ```antd```를 통해 반응형 UI를 구현하는 방법
+1. ```fetch```를 이용해 API 서버와 통신하는 방법
+1. React Componet를 모듈화하여 재사용하는 방법
 
 #### 🕋 Back-End
 
